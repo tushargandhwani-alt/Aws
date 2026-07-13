@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local database/data folders
+mysql-data/
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
