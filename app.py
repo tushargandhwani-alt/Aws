@@ -16,7 +16,7 @@ def get_db():
 
 @app.get("/")
 def home():
-    return {"message": "Hello World"}
+    return {"message": "Hello World Tushar"}
 
 @app.post("/addstudent")
 def post_student(name: str, age: int ,db: Session = Depends(get_db)):
